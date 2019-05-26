@@ -2,7 +2,6 @@ import React from 'react';
 import { Card, CardBody, Form, Label, FormGroup, Button, Input } from 'reactstrap';
 
 const Currency = (props) => {
-    console.log(props);
     return(
         <Card>
             <CardBody>
