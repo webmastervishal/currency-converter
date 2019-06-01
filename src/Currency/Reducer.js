@@ -19,7 +19,7 @@ const initialState = {
 
 const Reducer = (state = initialState,{ type, payload }) => {
     switch(type){
-        case actions.UPDATE_CURRENCIES:
+        case actions.UPDATE_STORE:
             console.log('Inside the reducer',payload);
             return payload;
         default:
